@@ -13,8 +13,8 @@ class Mage_OfflineMaintenance_Controller_Router_Standard extends Mage_Core_Contr
     public function match(Zend_Controller_Request_Http $request)
     {
 		 
-		$storeenabled = Mage::getStoreConfig('offlinemaintenance/settings/enabled', $request->getStoreCodeFromPath());
-		$showreminder = Mage::getStoreConfig('offlinemaintenance/settings/showreminder', $request->getStoreCodeFromPath());
+		$storeenabled = Mage::getStoreConfig('offlineMaintenance/settings/enabled', $request->getStoreCodeFromPath());
+		$showreminder = Mage::getStoreConfig('offlineMaintenance/settings/showreminder', $request->getStoreCodeFromPath());
 	 
 		
 		Mage::getSingleton('core/session', array('name' => 'adminhtml'));
@@ -30,7 +30,7 @@ class Mage_OfflineMaintenance_Controller_Router_Standard extends Mage_Core_Contr
 			$response->setHeader('Status','503 Service Temporarily Unavailable');
 			$response->setHeader('Retry-After','5000');
  
-			$response->setBody(html_entity_decode( Mage::getStoreConfig('offlinemaintenance/settings/message', $request->getStoreCodeFromPath()), ENT_QUOTES, "utf-8" )); 			$response->sendHeaders();
+			$response->setBody(html_entity_decode( Mage::getStoreConfig('offlineMaintenance/settings/message', $request->getStoreCodeFromPath()), ENT_QUOTES, "utf-8" )); 			$response->sendHeaders();
 			$response->outputBody();
 			
 			exit;

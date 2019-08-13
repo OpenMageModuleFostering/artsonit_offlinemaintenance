@@ -8,7 +8,7 @@
  * @author     Calore Luca Erico (l.calore@ArtsOn.it)
  */
  
-class Mage_Offlinemaintenance_Helper_Data extends Mage_Core_Helper_Abstract
+class Mage_OfflineMaintenance_Helper_Data extends Mage_Core_Helper_Abstract
 {
 
 }

@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Mage_OfflineMaintenance>
-            <version>1.0.2</version>
+            <version>1.0.3</version>
         </Mage_OfflineMaintenance>
     </modules>
 	<default>
@@ -11,7 +11,7 @@
                 <standard><area>frontend</area><class>Mage_OfflineMaintenance_Controller_Router_Standard</class></standard>
             </routers>
 		</web>
-		<offlinemaintenance>
+		<offlineMaintenance>
 			<settings>
                 <enabled>0</enabled>
 				<message><![CDATA[
@@ -50,7 +50,7 @@ h2
  ]]>
 </message> 
 			</settings>
-		</offlinemaintenance>
+		</offlineMaintenance>
 	</default>
  
   <adminhtml>
@@ -71,9 +71,9 @@ h2
                             <children>
                                 <config>
                                     <children>
-                                        <offlinemaintenance>
+                                        <offlineMaintenance>
                                             <title>Maintenance</title>
-                                        </offlinemaintenance>
+                                        </offlineMaintenance>
                                     </children>
                                 </config>
                             </children>

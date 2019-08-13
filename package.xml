@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>ArtsOnIT_OfflineMaintenance</name>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <stability>stable</stability>
     <license>N/A</license>
     <channel>community</channel>
@@ -18,8 +18,8 @@
     <notes>N/A</notes>
     <authors><author><name>Luca</name><user>auto-converted</user><email>l.calore@artson.it</email></author></authors>
     <date>2008-09-20</date>
-    <time>09:19:23</time>
-    <contents><target name="magecommunity"><dir name="Mage"><dir name="OfflineMaintenance"><dir name="Controller"><dir name="Router"><file name="Standard.php" hash="1c30af30aad30db948955eb605cf4f2a"/></dir></dir><dir name="etc"><file name="config.xml" hash="dc3a32c46fecf98503baf159d74a1379"/><file name="config.xml.bak" hash="4f2966d4f20c6d8d8a8a18abeff61f33"/><file name="system.xml" hash="bbffc6cee93375821e67e940483c3844"/></dir><dir name="Helper"><file name="Data.php" hash="134b3ba8c6c2ce63e652e417d2b768b7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_OfflineMaintenance.xml" hash="2f662f17bf17645423b34bfdad183492"/></dir></target></contents>
+    <time>09:38:26</time>
+    <contents><target name="magecommunity"><dir name="Mage"><dir name="OfflineMaintenance"><dir name="Controller"><dir name="Router"><file name="Standard.php" hash="49071d472c81494a54ea2c7dcf4f7587"/></dir></dir><dir name="etc"><file name="config.xml" hash="75cbb5f4ed2339666c4a28ed39b1490a"/><file name="system.xml" hash="f1f308725f866e768f3d0e4584487c0f"/></dir><dir name="Helper"><file name="Data.php" hash="7cc5de2a72ae5f613fadfdcaf500b8cf"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_OfflineMaintenance.xml" hash="2f662f17bf17645423b34bfdad183492"/></dir></target></contents>
     <compatible/>
     <dependencies/>
 </package>
