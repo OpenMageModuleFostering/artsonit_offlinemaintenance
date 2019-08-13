@@ -1,7 +1,7 @@
 {
     "name": "OpenMageModuleFostering/ArtsOnIT_OfflineMaintenance",
     "type": "magento-module",
-    "license": "N/A",
+    "license": "Commercial",
     "homepage": "",
     "description": "Allow administrators to switch off any store view during mantenance operation.",
     "authors": [

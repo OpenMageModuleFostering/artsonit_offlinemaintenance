@@ -1,3 +1,14 @@
+<!--
+/*
+ * Magento ArtsOnIt Offline Maintenance Page
+ *
+ * @category   ArtsOnIt
+ * @package    Mage_OfflineMaintenance
+ * @copyright  Copyright (c) 2009 ArtsOn.IT (http://www.ArtsOn.it)
+ * @author     Calore Luca Erico (l.calore@ArtsOn.it)
+  *@licence     www.artson.it/licence/magento/omp
+ */
+-->
 <config>
     <sections>
         <offlineMaintenance translate="label" module="offlineMaintenance">
