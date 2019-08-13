@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ArtsOnIT_OfflineMaintenance",
+    "type": "magento-module",
+    "license": "N/A",
+    "homepage": "",
+    "description": "Allow administrators to switch off any store view during mantenance operation.",
+    "authors": [
+    {
+        "name": "Luca",
+        "email": "l.calore@artson.it"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

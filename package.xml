@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+    <name>ArtsOnIT_OfflineMaintenance</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>N/A</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Allow administrators to switch off any store view during mantenance operation.</summary>
+    <description>Allow administrators to switch off any store view during maintenance operations. 
+
+
+- Administrators are able use all Magento functions during maintenance operations
+- Message is customizable (Global or each store view)
+- Visual reminder of maintenance mode
+- SEO Build-in optimization: page status is set as 503
+- Courtesy page is showed in every single front page</description>
+    <notes>N/A</notes>
+    <authors><author><name>Luca</name><user>auto-converted</user><email>l.calore@artson.it</email></author></authors>
+    <date>2008-09-20</date>
+    <time>03:13:43</time>
+    <contents><target name="magecommunity"><dir name="Mage"><dir name="OfflineMaintenance"><dir name="controller"><dir name="Router"><file name="Standard.php" hash="1c30af30aad30db948955eb605cf4f2a"/></dir></dir><dir name="etc"><file name="config.xml" hash="4f2966d4f20c6d8d8a8a18abeff61f33"/><file name="system.xml" hash="bbffc6cee93375821e67e940483c3844"/></dir><dir name="Helper"><file name="Data.php" hash="134b3ba8c6c2ce63e652e417d2b768b7"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_OfflineMaintenance.xml" hash="2f662f17bf17645423b34bfdad183492"/></dir></target></contents>
+    <compatible/>
+    <dependencies/>
+</package>
