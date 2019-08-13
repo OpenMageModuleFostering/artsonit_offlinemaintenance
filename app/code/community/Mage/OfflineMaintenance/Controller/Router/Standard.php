@@ -17,9 +17,9 @@ class Mage_OfflineMaintenance_Controller_Router_Standard extends Mage_Core_Contr
 		$showreminder = Mage::getStoreConfig('offlineMaintenance/settings/showreminder', $request->getStoreCodeFromPath());
 	 
 		
-		Mage::getSingleton('core/session', array('name' => 'adminhtml'));
+		
 		if ($storeenabled)
-{  
+{  Mage::getSingleton('core/session', array('name' => 'adminhtml'));
 		 if (!Mage::getSingleton('admin/session')->isLoggedIn())
 		{  
 			Mage::getSingleton('core/session', array('name' => 'front'));

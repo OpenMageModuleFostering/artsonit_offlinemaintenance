@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>ArtsOnIT_OfflineMaintenance</name>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <stability>stable</stability>
     <license>N/A</license>
     <channel>community</channel>
@@ -15,11 +15,11 @@
 - Visual reminder of maintenance mode
 - SEO Build-in optimization: page status is set as 503
 - Courtesy page is showed in every single front page</description>
-    <notes>N/A</notes>
+    <notes>Few small changes</notes>
     <authors><author><name>Luca</name><user>auto-converted</user><email>l.calore@artson.it</email></author></authors>
-    <date>2008-09-20</date>
-    <time>09:38:26</time>
-    <contents><target name="magecommunity"><dir name="Mage"><dir name="OfflineMaintenance"><dir name="Controller"><dir name="Router"><file name="Standard.php" hash="49071d472c81494a54ea2c7dcf4f7587"/></dir></dir><dir name="etc"><file name="config.xml" hash="75cbb5f4ed2339666c4a28ed39b1490a"/><file name="system.xml" hash="f1f308725f866e768f3d0e4584487c0f"/></dir><dir name="Helper"><file name="Data.php" hash="7cc5de2a72ae5f613fadfdcaf500b8cf"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_OfflineMaintenance.xml" hash="2f662f17bf17645423b34bfdad183492"/></dir></target></contents>
+    <date>2008-11-13</date>
+    <time>01:24:19</time>
+    <contents><target name="magecommunity"><dir name="Mage"><dir name="OfflineMaintenance"><dir name="Controller"><dir name="Router"><file name="Standard.php" hash="27fd25c72c4f8954b9de671e78ad5a13"/></dir></dir><dir name="etc"><file name="config.xml" hash="c588c03ee6996e910b073e52324fa8b3"/><file name="system.xml" hash="1ba2075e51e6c36053001d4f4ec9493e"/></dir><dir name="Helper"><file name="Data.php" hash="7cc5de2a72ae5f613fadfdcaf500b8cf"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mage_OfflineMaintenance.xml" hash="2f662f17bf17645423b34bfdad183492"/></dir></target></contents>
     <compatible/>
     <dependencies/>
 </package>
